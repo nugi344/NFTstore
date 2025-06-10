@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFT Marketplace</title>
+  <link rel="stylesheet" href="/dist/tailwind.css" />
+  <script type="module" crossorigin src="/assets/index-BuEQ3Ze9.js"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+  <header class="p-4 bg-gray-800 shadow-md">
+    <nav class="flex space-x-4">
+      <a id="marketplaceTab" href="?tab=marketplace" class="text-white hover:text-blue-400" data-tab="marketplace">Marketplace</a>
+      <a id="myNftsTab" href="?tab=my-nfts" class="text-white hover:text-blue-400" data-tab="my-nfts">My NFTs</a>
+      <a id="mintTab" href="?tab=mint" class="text-white hover:text-blue-400" data-tab="mint">Create NFT</a>
+    </nav>
+    <button id="connectButton" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500 mt-2">Connect Wallet</button>
+    <p id="accountInfo" class="mt-2 text-sm"></p>
+  </header>
+  <main class="container mx-auto p-4">
+    <div id="content" class="mt-4"></div>
+  </main>
+</body>
+</html>
